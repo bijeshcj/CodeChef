@@ -18,13 +18,6 @@ public class XETF extends Helper{
         getInputs();
     }
 
-    private void getInputs(){
-        FastScanner scanner = new FastScanner();
-        int input1 = scanner.nextInt();
-        int input2 = scanner.nextInt();
 
-        log(input1+" "+input2);
-
-    }
 
 }

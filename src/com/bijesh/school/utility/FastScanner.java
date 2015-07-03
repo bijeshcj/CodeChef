@@ -18,7 +18,7 @@ public class FastScanner{
 
     String nextToken(){
         while(st==null||!st.hasMoreElements())
-            try{st=new StringTokenizer(br.readLine());}catch(Exception e){}
+            try{st=new StringTokenizer(br.readLine());}catch(Exception e){e.printStackTrace();}
         return st.nextToken();
     }
     public int nextInt(){return Integer.parseInt(nextToken());}

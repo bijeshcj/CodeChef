@@ -11,6 +11,26 @@ public abstract class Helper {
         return scanner.nextInt();
     }
 
+
+    public int[] getInputs(){
+        FastScanner scanner = new FastScanner();
+        int input1 = scanner.nextInt();
+        int input2 = scanner.nextInt();
+
+        log(input1+" "+input2);
+        return new int[]{input1,input2};
+    }
+
+    public String getS(){
+        FastScanner fastScanner = new FastScanner();
+        return fastScanner.nextToken();
+    }
+
+    public int getI(){
+        FastScanner fastScanner = new FastScanner();
+        return fastScanner.nextInt();
+    }
+
     public void log(String s){
         System.out.println(s);
     }
